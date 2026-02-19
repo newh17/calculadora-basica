@@ -41,13 +41,19 @@ public class Calculator {
     }
   }
 
-  private static void printHelp() {
+private static void printHelp() {
     System.out.println("Uso:");
     System.out.println(" java Calculator <op> <a> <b>");
     System.out.println("Operaciones:");
     System.out.println(" add | sub | mul | div");
+
+    System.out.println("Códigos de salida:");
+    System.out.println(" 0 OK, 1 error, 2 uso incorrecto");
+
     System.out.println("Ejemplos:");
     System.out.println(" java Calculator add 2 3");
     System.out.println(" java Calculator div 10 2");
-  }
+    System.out.println(" java Calculator mul 4 5");
+}
+
 }
